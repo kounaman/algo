@@ -17,9 +17,9 @@ Algorithme phrase
        Ecrire('Entrer une phrase de votre choix: ')
        Lire(phrase)
        Ecrire('Votre phrase contient: ', 'nbrVoyelles(phrase)', 'voyelle(s)')
-       Ecrire('Oui: Entrer une nouvelle phrase. Non: Quitter le programme')
+       Ecrire('Oui: Entrer une nouvelle phrase. No: Quitter le programme')
        Lire(choix)
-    Jusqu'à choix='Non'
+    Jusqu'à choix='No'
   Fin
 
 
