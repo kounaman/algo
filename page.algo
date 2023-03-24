@@ -1,0 +1,26 @@
+Algorithme phrase
+  Fonction nbrVoyelles(texte : Chaine de carractéres): Entier
+  Variables 
+    i, Nbr: Entier
+  Debut
+   Nbr = 0
+    Pour i = 0  à longueur(texte) - 1
+        Si texte[i]= 'a' OU texte[i] = 'o' OU texte[i] = 'i' OU texte[i]='e' OU texte[i]='u' OU texte[i]='y' Alors
+        Nbr=Nbr+1
+        FinSi
+    FinPour
+  Fin
+  Variables
+    phrases, choix: Chaine de carractéres
+  Debut
+    Répéter
+       Ecrire('Entrer une phrase de votre choix: ')
+       Lire(phrase)
+       Ecrire('Votre phrase contient: ', 'nbrVoyelles(phrase)', 'voyelle(s)')
+       Ecrire('Oui: Entrer une nouvelle phrase. Non: Quitter le programme')
+       Lire(choix)
+    Jusqu'à choix='Non'
+  Fin
+
+
+ 
